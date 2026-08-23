@@ -9,3 +9,5 @@ uv run pytest -q
 uv run python main.py
 ## Hallazgos
 ## Decisiones de limpieza
+## Pregunta de investigacion 1
+Funciona gracias al archivo uv.lock que se subio a GitHub. Ese archivo guarda los nombres y las versiones exactas de todos los paquetes que se instalo, por lo que uv sync solo lo lee y recrea el entorno igual en cualquier máquina
