@@ -1,7 +1,15 @@
 import numpy as np
 import pandas as pd
 import pytest
-from src.lab_semana1.analisis import filtrar, resumen_por_grupo, zscore, top_k, recta_minimos_cuadrados
+
+from src.lab_semana1.analisis import (
+    filtrar,
+    recta_minimos_cuadrados,
+    resumen_por_grupo,
+    top_k,
+    zscore,
+)
+
 
 @pytest.fixture
 def df_mini():

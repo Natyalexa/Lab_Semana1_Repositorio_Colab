@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+
 
 def filtrar(df, columna, umbral):
     """Devuelve solo las filas donde df[columna] > umbral."""
