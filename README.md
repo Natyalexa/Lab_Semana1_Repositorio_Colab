@@ -2,7 +2,7 @@
 - Persona A: <Edwin Ortega>
 - Persona B: <Nataly Cuichan>
 - Dataset: <archive.ics.uci.edu/static/public/183/data.csv>
-- Tarea: <regresion | clasificacion> Variable objetivo: <num>
+- Tarea: <regresion | clasificacion> Variable objetivo: <ViolentCrimesPerPop>
 ## Como correr
 uv sync
 uv run pytest -q
