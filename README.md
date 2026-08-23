@@ -15,3 +15,11 @@ uv run python main.py
 
 - **pytest**: depende de que el usuario haya activado manualmente el entorno virtual. Si no lo hizo, las pruebas se ejecutan con el Python global del sistema y pueden fallar por falta de dependencias.
 - **uv run pytest**: asegura que las pruebas se ejecuten dentro del entorno virtual gestionado por uv, con las dependencias correctas definidas en `uv.lock`. Esto evita errores aunque el usuario no haya activado el entorno.
+
+## Hallazgos
+- El dataset tiene valores faltantes en varias columnas.
+- La variable objetivo `ViolentCrimesPerPop` está en formato numérico entre 0 y 1.
+
+## Decisiones de limpieza
+- Se eliminaron columnas con más del 50% de valores nulos.
+- Se normalizaron nombres de columnas para facilitar el análisis.
